@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Заголовок</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="sr-only">Slide</h1>
+        <section class="slider">
+            <div class="container">
+                <input type="radio" id="i1" name="radio" checked>
+                <input type="radio" id="i2" name="radio">
+                <input type="radio" id="i3" name="radio">
+                <input type="radio" id="i4" name="radio">
+                <ul class="slider__slides">
+                    <li class="slider__slide">
+                        <img class="slider__img" src="img/mem1.jpeg" alt="mem1">
+                    </li>
+                    <li class="slider__slide">
+                        <img class="slider__img" src="img/mem2.jpg" alt="mem2">
+                    </li>
+                    <li class="slider__slide">
+                        <img class="slider__img" src="img/mem3.jpeg" alt="mem3">
+                    </li>
+                    <li class="slider__slide">
+                        <img class="slider__img" src="img/mem4.jpeg" alt="mem4">
+                    </li>
+                </ul>
+                <div class="slider__content">
+                    <div class="slider__text text">
+                        <ul class="text__slides">
+                            <li class="text__item">Пиши + в лс, если было также</li>
+                            <li class="text__item">Я - красную:)</li>
+                            <li class="text__item">Слайдер знает толк в технологиях</li>
+                            <li class="text__item">Сам в шоке, что получилось...</li>
+                        </ul>
+                    </div>
+                    <ul class="slider__nav">
+                        <li class="slider__item slider__item--1">
+                            <label class="toggle__label" for="i1"></label>
+                        </li>
+                        <li class="slider__item slider__item--2">
+                            <label class="toggle__label" for="i2"></label>
+                        </li>
+                        <li class="slider__item slider__item--3">
+                            <label class="toggle__label" for="i3"></label>
+                        </li>
+                        <li class="slider__item slider__item--4">
+                            <label class="toggle__label" for="i4"></label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
