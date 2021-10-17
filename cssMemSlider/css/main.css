@@ -163,3 +163,62 @@ input {
     height:3rem;
     cursor: pointer;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        width: 80vw;
+    }
+
+    .slider__slides {
+        max-height: 500px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 90vw;
+    }
+
+    .slider__slides {
+        max-height: 360px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95vw;
+    }
+
+    .slider__slides {
+        max-height: 360px;
+    }
+
+    .slider__content {
+        flex-direction: column-reverse;
+        height: unset;
+    }
+
+    .slider__text {
+        width: 100%;
+    }
+
+    .text__slides {
+        font-size: 18px;
+    }
+
+    .slider__nav {
+        margin-bottom: 20px;
+    }
+
+    .slider__item {
+        width: .8rem;
+        height: .8rem;
+    }
+
+    .toggle__label {
+        width: .8rem;
+        height:2rem;
+    }
+    
+}
